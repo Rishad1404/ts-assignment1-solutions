@@ -7,6 +7,7 @@
       author: string;
       pages: number;
     }
+   
     এখানে যেমন key:value পেয়ার থেকে আমরা সহজেই key বাছাই করতে পারি এবং এই কাজ সহজভাবে করতেই  keyof ব্যবহার করা হয় ।
     type BookErKey = keyof Book;
     'keyof Book' এর key গুলো হবে: "title" | "author" | "pages"
